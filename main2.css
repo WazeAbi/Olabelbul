@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.ing {
+    font-size: small;
+}
+
+.ingredient {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.lot {
+    background-color: white;
+    color: black;
+    padding-left: 10%;
+   
+}
+
+.ing2 {
+    font-size: small;
+}
+
+.gras {
+    font: italic;
+}
+
+p {
+    font: bold;
+}
