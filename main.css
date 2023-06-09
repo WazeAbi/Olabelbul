@@ -28,10 +28,6 @@ nav{
     
   }
   
-
-
- 
-  
   li a {
     display: block;
     color: white;
@@ -114,9 +110,6 @@ nav{
 .bigFooter{
     background-color: black;
     display: flex;
-   
-    
-
 }
 .footer1{
     width: 30%;
@@ -156,63 +149,131 @@ nav{
 body {
   background-color: black;
 }
-
-#video {
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  margin-bottom: 0%;
-  margin-top: 0%;   
-  /* border-radius: 12px; */
-  /* position: absolute;
+/* VIDEO */
+video {
+  position: relative;
+  object-fit: cover;
   top: 0;
-  left: 0; */
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.video {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.textvideo{
+  position: absolute;
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+  z-index: 2;
 }
 
+/* OLABELBUL */
+.content h1{
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
 .bouteilles {
   height: 40%;
   width: 40%;
 }
-
-.saveur {
-  height: 40%;
-  width: 40%;
+main .content p{
+  text-align: center;
+  width: 80%;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.saveur2 {
-  height: 40%;
-  width: 40%;
+/* IMAGE ET SAVEURS */
+.content2 h1{
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+.content2 img {
+  height: 30%;
+  width: 30%;
+
 }
 
 .portrait {
-  height: 40%;
-  width: 40%;
+  height: 30%;
+  width: 30%;
 }
 
 .content {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: black;
+  color: white;
+}
+
+.content2 h1{
   color: white;
   text-align: center;
 }
 
-.content2 {
+.saveurimg, .saveurimg2 {
   display: flex;
-  
-  background-color: black;
-  color: white;
+  justify-content: space-evenly;
+}
+ 
+.saveurimg{
+  margin-bottom: 7em;
 }
 
-.content3 {
+/* ATELIER */
+/* VIDEO */
+.content3 img {
+  position: relative;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 1em;
+}
+.atelier {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  background-color: black;
-  color: white;
+  justify-content: center;
+  z-index: 1;
 }
+.textatelier, button{
+  position: absolute;
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+  z-index: 2;
+}
+.textatelier, button{
+  display: flex;
+  flex-direction: column;
 
+}
+.textatelier{
+  font-size: 3em;
+}
+.containerbutton a {
+  font-size: 0.5em;
+  background-color: rgb(255, 254, 254);
+  color: black;
+  margin-top: 2em;
 
-
-
+}
+.containerbutton{
+  display: flex;
+  justify-content: center;
+}
