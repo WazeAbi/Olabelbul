@@ -1,0 +1,66 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+}
+.bigDiv{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.firstDiv{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+}
+
+.firstImage{
+    width: 30%;
+}
+.firstText{
+    width: 70%;
+    margin-left: 5%;
+}
+
+#olaProfil{
+    width: 100%;
+    box-shadow: 4px 5px 5px rgba(255, 251, 251, 0.105);
+    border-radius: 5%;
+} 
+
+
+.secondDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+}
+.secondText{
+    width: 60%;
+}
+.secondImage{
+    width: 40%;
+}
+#olaSmile{
+    width: 100%;
+    box-shadow: 4px 5px 5px rgba(255, 251, 251, 0.105);
+    border-radius: 5%;
+}

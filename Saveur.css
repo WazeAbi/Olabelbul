@@ -1,0 +1,104 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.saveurBig{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.div1Bouteille{
+  display: flex;
+  flex-direction: row;
+}
+.div2Bouteillegroupe2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#bouteille{
+  width: 100%;
+}
+
+.saveurFirst{
+  margin-left: 7%;
+  display: flex;
+  flex-direction: row;
+width: 30%;
+
+}
+.saveurSecond{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  margin-right: 10%;
+}
+
+.saveurThird{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30%;
+}
+
+.saveurFour{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30%;
+}
+.saveurFirstText>h1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.saveurFirstText{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-style: solid;
+  width: 80%;
+  margin-right: 10%;
+  padding: 3%;
+
+}
+.doubleText{
+  display: flex;
+  flex-direction:row;
+}
+.saveurSecondText{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-style: solid;
+  width: 80%;
+  margin-left: 7%;
+  padding: 3%;
+}
+.saveurSecondText>h1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.textdroite{
+  margin-left: 10%;
+}
+.textdroite>img{
+  width: 10%;
+}
